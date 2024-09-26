@@ -1,0 +1,21 @@
+body {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5em;
+}
+
+table, tr, td {
+  border: 0.2em solid black;
+}
+
+tr {
+  height: 3em;
+}
+
+td {
+  min-width: 3em;
+  justify-content: center;
+  align-items: center;
+}
